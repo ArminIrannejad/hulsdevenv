@@ -1,0 +1,5 @@
+export PATH="$HOME/hulsdevenv/.dotfiles/tmux:$PATH" #add tmux-sessionizer to path
+export PATH="$HOME/.local/src/neovim/bin:$PATH" #add nvim to path
+
+alias vim='nvim' # if you want to write vim intsead of nvim
+bindkey -s ^f "tmux-sessionizer\n" # ^ for ctrl such that Ctrl-f opens tmux-sessionizer

@@ -1,0 +1,100 @@
+:q
+:'
+:t [Char]
+:t "santoeh"
+:t 20
+:t :t
+:t t
+:t (fromIntegral (length [1,2,4,5,3])+3.3)
+:t (fromIntegral (length [1,2,4,5,3]))
+:t (fromIntegral 8)
+:t fromIntegral
+minBound :: Int
+:t read
+clear\
+ !clear
+! clear
+!clear
+!ls
+ls
+:q
+exit
+l Example.hs
+:q
+:!clear
+appendLastTwo [1..20][3, 6..90]
+[3 6 .. 90]
+appendLastTwo [1..20][3 6..90]
+appendLastTwo [1..20][3..90]
+appendLastTwo [1..20]
+:l Example.hs 
+:t take
+:q
+headOrDeafult 2 []
+:q
+:!clear
+show tohthet
+show 312324
+show "thetheth"
+:t show
+:t +d concat
+:t concat
+:t +d unwords
+:t unwords 
+:!clear
+unwords words "toheut thouth"
+words "tohuth othutoueh "
+unwords words "Hej    Ulrika  , jag ser dig"
+words "thoenuth ontehunothe unh oenuht noehut oneuh "
+:t words
+"hello, " ++ "haskell!"
+take 5 "Hello world!"
+:!clear
+!clear
+:!clear
+:k *
+:k Char
+:k char
+:k :t
+:t t
+:t hello
+:t "hello"
+:k String
+type String
+:t String
+:t String
+:t "hello"
+:!clear
+[1..]
+[1, 4 .. 233]
+:!clear
+:t [1..10]
+:t [..]
+:t [(..)]
+:t (..)
+[1, 3, 3, 3, 8] !! 4
+:t +d (!!)
+:t (!!)
+:t !!
+:t +d length
+:t length
+:t lenght
+:t lenght
+null []
+:t null
+:tull
+:t take
+:t reverse
+:t elem
+:!clear
+this is it, here I stand
+head []
+:t +d head
+:t head
+head [1, 3]
+:t +d concat
+:t concat
+:t 3
+:t +d 3.5
+:t +d 3
+concat [[1], [2, 4], [3, 3, 234, 3]]
