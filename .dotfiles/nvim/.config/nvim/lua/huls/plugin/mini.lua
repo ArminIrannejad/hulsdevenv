@@ -1,0 +1,10 @@
+-- makes the statusbar look better but is prefrence
+-- return {
+-- 	{
+-- 		"echasnovski/mini.nvim",
+-- 		config = function()
+-- 			local statusline = require "mini.statusline"
+-- 			statusline.setup { use_icons = true }
+-- 		end
+-- 	}
+-- }

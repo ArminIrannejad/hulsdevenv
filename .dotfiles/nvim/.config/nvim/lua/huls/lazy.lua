@@ -16,7 +16,7 @@ vim.opt.runtimepath:prepend(lazypath)
 require("lazy").setup({
 	spec = {
 			{"folke/tokyonight.nvim", config = function() vim.cmd.colorscheme "tokyonight" end },
-			{ import = "armino112.plugin" },
+			{ import = "huls.plugin" },
 	},
 	change_detection = {
 		-- auto checks for changes and loads ui

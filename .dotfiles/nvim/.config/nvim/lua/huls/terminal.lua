@@ -1,3 +1,4 @@
+-- If you like terminal in nvim you can. I still mostly go with tmux
 vim.api.nvim_create_autocmd("TermOpen", {
     group = vim.api.nvim_create_augroup("custom-term-open", {}),
     callback = function ()
