@@ -1,4 +1,3 @@
-```markdown
 # How to Use `run.sh` and `stow.sh`
 
 ## 1. Test the `run.sh` Script
@@ -28,5 +27,4 @@ After `run.sh` has finished, run `stow.sh` to set up your dotfiles:
 ```
 
 > **Note:** The zsh portion of `stow.sh` can sometimes be a bit janky. If something isn't working correctly, try restarting your terminal or re-running `stow.sh`.
-```
 
